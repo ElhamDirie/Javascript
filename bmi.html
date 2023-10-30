@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+function CalculateBMI(weight,height){
+    let BMI =  weight / (height * height)
+    return BMI;
+}
+ let aliBMI = CalculateBMI(80,1.68)
+console.log(aliBMI)
+let mohamedBMI = CalculateBMI(70,1.78)
+console.log(mohamedBMI)
+if(mohamedBMI>aliBMI){
+    console.log(`mohamad's BMI ${mohamedBMI} is higher than ali's BMI ${aliBMI}  `)
+}
+else{
+
+    console.log(`ali's BMI ${aliBMI} is higher than mohamad's BMI ${mohamedBMI}  `)
+}
+
+    </script>
+</body>
+</html>
